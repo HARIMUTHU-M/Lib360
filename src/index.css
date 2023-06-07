@@ -19,3 +19,18 @@ nav{
   padding : 10px 36px;
   box-shadow : 0px 2.98256px 7.4564px rgba(0,0,0,0.2);
 }
+
+section{
+  padding:20px;
+}
+
+.Body{
+  display: flex;
+  flex-direction: column;
+}
+
+.body-image{
+  max-width: 400px;
+  align-self: center;
+}
+
