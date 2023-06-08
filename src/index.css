@@ -15,7 +15,7 @@ code {
 nav{
   height : 70px;
   display : flex;
-  background-color: #0fb9fe ;
+  background-color: #0194fe ;
   padding : 10px 36px;
   box-shadow : 0px 2.98256px 7.4564px rgba(0,0,0,0.2);
 }
@@ -24,7 +24,7 @@ section{
   padding:20px;
 }
 
-.Body{
+/* .Body{
   display: flex;
   flex-direction: column;
 }
@@ -32,5 +32,47 @@ section{
 .body-image{
   max-width: 400px;
   align-self: center;
+} */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
 }
 
+.searchTerm {
+  width: 40%;
+  border: 3px solid #0194fe;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #0194fe;
+}
+
+.searchButton {
+  width: 40px;
+  height: 35px;
+  border: 1px solid #0194fe;
+  background: #0194fe;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+  position: absolute;
+  align-self: center;
+  left : 78%;
+  top : 20%;
+  transform: translate(-50%, -50%);
+}

@@ -1,9 +1,18 @@
-import React from 'react';
+import React from "react";
 
 export default function Body() {
-  return(
-    <section className = "Body">
-      <img src = {require('./KNOW YOUR STORE.png')} alt="KYS"  className = "body-image"/>
-    </section>
-  )
+  return (
+    <div className="wrap">
+      <div className="search">
+        <input
+          type="text"
+          class="searchTerm"
+          placeholder="Search for the books"
+        />
+        <button type="submit" className="searchButton">
+          <i className="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+  );
 }
