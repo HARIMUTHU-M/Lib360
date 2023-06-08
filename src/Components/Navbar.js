@@ -1,5 +1,5 @@
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.css";
+
 
 import { PrimaryNav,MenuLink,Menu,Hamburger } from './NavElements';
 import Body from './Body'
