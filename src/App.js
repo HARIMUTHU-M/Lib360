@@ -15,7 +15,7 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://www.googleapis.com/books/v1/volumes?q=programming+inauthor:keyes&key=AIzaSyBRKwgGQMZtu7pV0K6YoZNwJ7HAHbEf_Lg&maxResults=40"
+          "https://www.googleapis.com/books/v1/volumes?q=javascript+inauthor:keyes&key=AIzaSyBRKwgGQMZtu7pV0K6YoZNwJ7HAHbEf_Lg&maxResults=40"
         );
         setBooksData(response.data.items);
         console.log(response.data.items);
