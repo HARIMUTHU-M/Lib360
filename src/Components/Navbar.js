@@ -6,9 +6,9 @@ export default function Navbar(){
     <Hamburger/>
       <img src= {require('./logo-png.png')} alt='KYS' className = "Nav-logo"></img>
       <Menu>
-        <MenuLink to="/books" activeStyle>Books</MenuLink>
+        <MenuLink to="/books" activestyle = 'true'>Books</MenuLink>
         
-        <MenuLink to="login" activeStyle>Login</MenuLink>
+        <MenuLink to="login" activestyle = 'true'>Login</MenuLink>
       </Menu>
     </nav>
   )
