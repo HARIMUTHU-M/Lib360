@@ -1,12 +1,8 @@
 import React from 'react';
 import { MenuLink,Menu,Hamburger } from './NavElements';
-//import Body from './Body'
-
 export default function Navbar(){
-  return(
-    
+  return( 
     <nav>
-   
     <Hamburger/>
       <img src= {require('./logo-png.png')} alt='KYS' className = "Nav-logo"></img>
       <Menu>
@@ -14,9 +10,6 @@ export default function Navbar(){
         
         <MenuLink to="login" activeStyle>Login</MenuLink>
       </Menu>
-
-     
     </nav>
-
   )
 }
