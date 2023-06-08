@@ -33,19 +33,7 @@ export default class Login extends Component{
   };
 
 render(){
-    const sample = {
-        margin: "0",
-        padding: "0",
-        boxSizing: "border-box",
-        WebkitFontSmoothing: "antialiased",
-        backgroundColor: "#b5c0ad",
-        minHeight: "720px",
-        minWidth: "320px",
-        height: "100%",
-        alignItems: "center",
-        display: "flex",
-        justifyContent: "center",
-      };
+   
       
   
 
@@ -54,7 +42,7 @@ render(){
         <Navbar/>
           <div className="App" style={{alignItems:"center",justifyContent:"center"}}>
            <img src={Logo} className="logo" alt="logo"/>
-           <form className="form" style={{margin:"50px", padding:"10px"}} onSubmit={this.handleSubmit} >
+           <form className="form" style={{margin:"50px"}} onSubmit={this.handleSubmit} >
             <div className="input-group">
                 <label htmlFor="email" >Email</label>
                 <input type="email" name ="email" placeholder="Enter your Email"/>
